@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "donutvisual",
+  "version": "${version}",
+  "name": "DonutVisual",
+  "description": "Clientseitiger Visual-Client: Fake-Items, Fake-Spawner, Elytra-Optik, Ghost-Schematics.",
+  "environment": "client",
+  "entrypoints": { "client": ["de.donutvisual.DonutVisualClient"] },
+  "mixins": ["donutvisual.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
